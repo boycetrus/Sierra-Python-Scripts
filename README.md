@@ -1,2 +1,2 @@
 # Sierra Python Scripts
- random python scripts for working with Sierra ILS
+ Random python scripts for working with Sierra ILS. Your mileage may vary!

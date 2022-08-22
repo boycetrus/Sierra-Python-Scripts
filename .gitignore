@@ -1,0 +1,18 @@
+# Exclude the .htaccess file
+.htaccess
+
+# Exclude the build products
+build/*
+*.[oa]
+
+# Exclude OS X folder attributes
+.DS_Store
+
+# Exclude Private files that hold API Keys, passwords, etc.
+.env
+
+# Exclude log files
+*.log
+
+# Exclude code editor Project files
+*.code-workspace

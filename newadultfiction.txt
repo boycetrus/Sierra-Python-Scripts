@@ -1,0 +1,122 @@
+{
+  "queries": [
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "id": 28
+      },
+      "expr": [
+        {
+          "op": "greater_than",
+          "operands": [
+            "queryDate"
+          ]
+        }
+      ]
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "item"
+        },
+        "field": {
+          "tag": "b"
+        }
+      },
+      "expr": [
+        {
+          "op": "starts_with",
+          "operands": [
+            "32232"
+          ]
+        }
+      ]
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "bib"
+        },
+        "id": 24
+      },
+      "expr": [
+        {
+          "op": "equals",
+          "operands": [
+            "eng"
+          ]
+        }
+      ]
+    },
+    "and",
+    {
+      "target": {
+        "record": {
+          "type": "item"
+        },
+        "id": 79
+      },
+      "expr": [
+        {
+          "op": "equals",
+          "operands": [
+            "saf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "caf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "daf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "eaf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "maf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "naf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "yaf"
+          ]
+        },
+        "or",
+        {
+          "op": "equals",
+          "operands": [
+            "baf"
+          ]
+        }
+      ]
+    }
+  ]
+}
