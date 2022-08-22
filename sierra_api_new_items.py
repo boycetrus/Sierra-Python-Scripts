@@ -2,9 +2,9 @@
 
 # POSSIBLE ENHANCEMENTS
 # TODO: alternative to ISBN for DVDs? different 020 tag?
-# TODO: append the cover image to the description item in the feed
+# TODO: Create a media element in each entry to hold the cover image
 # TODO: make the sierraQuery variable a list ["newfiction","newadultnf",etc] and loop through that list to
-#       create feeds for every query in a single python script
+#   create feeds for mutliple genres/material types/etc. in a single python script
 
 # import the required libraries
 import os
